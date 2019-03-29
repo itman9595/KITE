@@ -1,0 +1,18 @@
+.tag {
+	color: gray;
+}
+.level1 {
+	font-size: 40px;
+}
+* {
+	font-family: Verdana;
+}
+b + i + del {
+	color: blue;
+}
+[href$=".ru"] {
+	color: red;
+}
+div[class|="block"] a {
+	color: green;
+}

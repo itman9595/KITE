@@ -1,0 +1,36 @@
+body {
+	margin: 0 auto;
+	width: 900px;
+}
+.container {
+	margin-top: 20px;
+	padding: 20px 0px;
+	background-color: #FFF9B9;
+	text-align: center;
+}
+.navigation, .content {
+	margin: 20px 80px;
+}
+.navigation {
+	background-color: #F7FFB9;
+	padding: 20px 0px;
+}
+.navigation li {
+	margin-right: 100px;
+	display: inline-block;
+}
+.navigation li a {
+	text-decoration: none;
+}
+.content {
+	padding: 20px 0px;
+	background-color: #B9FFF8;
+}
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 5px;
+	text-align: left;
+}

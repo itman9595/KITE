@@ -1,0 +1,28 @@
+body {
+	margin: 0 auto;
+	width: 900px;
+}
+.container {
+	background-color: #D8F0FF;
+	padding: 10px 0px;
+	margin-top: 10px;
+}
+.navigation {
+	text-align: center;
+	margin: 20px 100px;
+	padding: 20px 0px;
+	background-color: #B9FFF8;
+}
+.navigation li {
+	margin-right: 50px;
+	display: inline-block;
+}
+.navigation li a {
+	text-decoration: none;
+}
+.header {
+	text-align: center;
+}
+.content {
+	background-color: #FFF4D8;
+}

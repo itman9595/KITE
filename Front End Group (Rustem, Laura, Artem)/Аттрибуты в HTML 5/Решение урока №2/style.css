@@ -1,0 +1,31 @@
+.container {
+	text-align: center;
+}
+.block-4-c, .block-2-c {
+	left: 50px;
+	position: relative;
+}
+.block {
+	display: inline-block;
+	margin-right: 100px;
+}
+.block img, .block-2 img {
+	width: 200px;
+	height: 200px;
+}
+.block p, .block-2 p {
+	margin-top: 30px;
+	padding: 20px 40px;
+	background-color: orange;
+	color: white;
+}
+.block-2 p {
+	background-color: red;
+}
+.block-2-c {
+	display: inline-block;
+	margin-right: 100px;
+}
+.block-2 {
+	display: block;
+}

@@ -1,0 +1,44 @@
+body {
+	margin: 0 auto;
+	width: 900px;
+}
+.container {
+	text-align: center;
+}
+.block {
+	margin-top: 20px;
+	background-color: green;
+	border: 1px solid red;
+	overflow: auto;
+}
+.block img {
+	float: right;
+}
+.block p:first-of-type, .block p:last-of-type {
+	background-color: orange;
+}
+.block :not(p) {
+	color: white;
+}
+.block:first-child {
+	background-color: red;
+}
+.block:nth-child(2) {
+	background-color: purple;
+}
+.block p:only-child {
+	background-color: blue;
+}
+.block p::after {
+	content: " - Remember this";
+	color: white;
+}
+.block p::first-letter {
+	color: yellow;
+}
+.block p::first-line {
+	color: gray;
+}
+.block p::selection {
+	background-color: pink;
+}
