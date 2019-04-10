@@ -1,0 +1,42 @@
+@import style
+
+body
+	background-color: red
+
+=new_margin($property)
+	margin: $property
+
+=new_padding($property)
+	padding: $property
+
+.container
+	ul
+		li
+			background-color: green
+			+new_padding(20px 30px)
+			+new_margin(20px 0px)
+
+%message-shared
+	border: 1px solid black
+	padding: 200px / 10px * 4px
+	color: white
+
+$name: background
+
+.content
+	h1, p
+		@extend %message-shared
+		font:
+			family: fantasy
+			size: 2em
+			weight: bold
+
+a
+	background-color: white
+	text-decoration: none
+	padding: 10px
+	&:hover
+		#{$name}-color: purple
+
+
+

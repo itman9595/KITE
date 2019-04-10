@@ -1,0 +1,54 @@
+body {
+  background-color: orange;
+  margin: 0 auto;
+  width: 900px;
+  text-align: center;
+}
+
+.container ul li {
+  display: block;
+}
+
+.div1 {
+  -webkit-perspective: 100px;
+  perspective: 100px;
+}
+.div1 .div2 {
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: rotateX(45deg);
+  transform-style: preserve-3d;
+  transform: rotateX(45deg);
+}
+
+body {
+  background-color: red;
+}
+
+.container ul li {
+  background-color: green;
+  padding: 20px 30px;
+  margin: 20px 0px;
+}
+
+.content h1, .content p {
+  border: 1px solid black;
+  padding: 80px;
+  color: white;
+}
+
+.content h1, .content p {
+  font-family: fantasy;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+a {
+  background-color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+a:hover {
+  background-color: purple;
+}
+
+/*# sourceMappingURL=reset.css.map */

@@ -1,0 +1,23 @@
+body {
+  background-color: orange;
+  margin: 0 auto;
+  width: 900px;
+  text-align: center;
+}
+
+.container ul li {
+  display: block;
+}
+
+.div1 {
+  -webkit-perspective: 100px;
+  perspective: 100px;
+}
+.div1 .div2 {
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: rotateX(45deg);
+  transform-style: preserve-3d;
+  transform: rotateX(45deg);
+}
+
+/*# sourceMappingURL=style.css.map */
